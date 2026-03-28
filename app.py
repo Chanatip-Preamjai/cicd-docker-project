@@ -9,7 +9,7 @@ goldfish_db = [
         "name": "Ranchu เกรดประกวด", 
         "price": 1500, 
         "desc": "ลำตัวสั้นกลม วุ้นหนา สีส้มสด สุขภาพแข็งแรง",
-        "url": "https://www.hepper.com/wp-content/uploads/2022/09/goldfish-Ranchu_bluehand_shutterstock-2.jpg",
+        "url": "https://www.fishkeepingworld.com/wp-content/uploads/2019/10/Goldfish-A-Z-Best-Types-Of-Goldfish-Single-Tail-And-Fancy-Banner.jpg",
         "is_sold": False
     }
 ]
