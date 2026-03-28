@@ -48,8 +48,7 @@ jobs:
         with:
           context: .
           push: true
-          tags: chisanupongphetruen/testphoto:latest
-
+          tags: chanatip02/testphoto:latest
   deploy:
     needs: build-and-push-docker-image # ต้องรอให้ด่าน Build ผ่านก่อน
     runs-on: ubuntu-latest
@@ -62,7 +61,7 @@ jobs:
           key: ${{ secrets.SERVER_SSH_KEY }}
           # สคริปต์ที่จะไปรันบนเซิร์ฟเวอร์เพื่อดึง Image ใหม่มาเปิด
           script: |
-            docker pull chisanupongphetruen/testphoto:latest
+            docker pull chanatip02/testphoto:latest
             docker stop goldfish-app || true
             docker rm goldfish-app || true
             # รันแอป Python โดยเชื่อมพอร์ต 80 ของเซิร์ฟเวอร์ เข้ากับพอร์ต 5000 ของ Flask
