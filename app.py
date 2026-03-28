@@ -8,6 +8,7 @@ goldfish_db = [
         "id": 1, 
         "name": "Ranchu เกรดประกวด", 
         "price": 1500, 
+        "Color":"Orange",
         "desc": "ลำตัวสั้นกลม วุ้นหนา สีส้มสด สุขภาพแข็งแรง",
         "url": "https://www.hepper.com/wp-content/uploads/2022/09/goldfish-Ranchu_bluehand_shutterstock-2.jpg",
         "is_sold": False
